@@ -14,4 +14,8 @@ fetch(url)
     document.querySelector('#characterImg').src = data[0].image
     document.querySelector('h3').innerText = data[0].quote
   })
+  reset()
+}
+function reset(){
+  document.querySelector('input').value = ""
 }
